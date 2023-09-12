@@ -1,6 +1,10 @@
 # FolderSync
 This program periodically synchronizes uni-directionally two folders: source and replica.
 
+Compiled in python3.11
+Requires checksumdir to be installed:
+  pip install checksumdir
+
 Program usage: python main.py [source folder path] [replica folder path] [synchronization interval in seconds] [log file path]
 Example:
 
